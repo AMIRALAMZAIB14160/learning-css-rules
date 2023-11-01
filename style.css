@@ -1,0 +1,43 @@
+/* LasT Rule */
+/* p{
+    color: red;
+}
+
+p{
+    color: green
+} */
+
+
+/* spacificity */
+/* *{
+    color: red;
+}
+p{
+    color: green !important;
+}
+
+p#monkey{
+    color: chocolate;
+} */
+
+body {
+    border: 2px solid red;
+    padding: 15px;
+    background-color: rgb(112, 205, 233)
+    
+}
+
+.page {
+    border: 2px solid green;
+    background-color: rgb(234, 127, 255);
+    color: inherit;
+    padding: inherit;
+}
+
+h1 {
+    color:rgb(7, 22, 233)
+}
+
+p {
+    color: rgb(0, 4, 255);
+ }
